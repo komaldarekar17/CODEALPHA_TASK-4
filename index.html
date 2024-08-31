@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="music-player">
+        <div class="song-info">
+            <h2 id="song-title">Song Title</h2>
+            <p id="artist-name">Artist Name</p>
+        </div>
+        <audio id="audio-player" src="./WhatsApp Audio 2024-08-30 at 10.52.32 AM.mpeg"></audio>
+        <div class="controls">
+            <button id="prev-btn">Prev</button>
+            <button id="play-pause-btn">Play</button>
+            <button id="next-btn">Next</button>
+            <input type="range" id="volume-control" min="0" max="1" step="0.01">
+        </div>
+        <div class="playlist">
+            <!-- Add song list here -->
+            
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
